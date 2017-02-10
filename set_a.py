@@ -29,3 +29,13 @@ print(fullname[6:11] + fullname[0:6])
 """
 
 print(len(fname))
+"""
+3.6 Assume you have two variables: `s='s'`, and `p='p'`. Using
+concatenation and repetition, write an expression that produces the
+string 'mississippi'.
+"""
+s ='s'
+p = 'p'
+m = 'm'
+i = 'i'
+print(m + (i + s + s) * 2 + i + p * 2 + i)
