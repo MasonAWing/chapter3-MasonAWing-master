@@ -39,3 +39,12 @@ p = 'p'
 m = 'm'
 i = 'i'
 print(m + (i + s + s) * 2 + i + p * 2 + i)
+"""
+3.7 Modify the prefix example in Session 3.5 to print all prefixes of
+"Roy G Biv," including the entire string.
+"""
+def RGB():
+    name = 'Roy G Biv'
+    for i in range(len(name)):
+        print(name[0:i+1])
+print(RGB)
