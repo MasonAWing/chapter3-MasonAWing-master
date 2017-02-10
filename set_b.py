@@ -20,3 +20,11 @@ print(str.replace('iss', 'ox'))
 """
 d = 'mississippi'
 print(d.index('p'))
+"""
+3.11 Make the word 'python' centered and all capital letters in a string
+of length 20.
+"""
+w = 'Python'
+w = w.center(20)
+w = w.upper()
+print(w)
