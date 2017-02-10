@@ -11,3 +11,7 @@ fname = 'Mason '
 lname = 'Wing'
 fullname = fname + lname
 print(fullname)
+"""
+3.2 Using the slice operator, print your first name.
+"""
+print(fullname[0:6])
