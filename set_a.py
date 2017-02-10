@@ -15,3 +15,7 @@ print(fullname)
 3.2 Using the slice operator, print your first name.
 """
 print(fullname[0:6])
+"""
+3.3 Using the slice operator, print your last name.
+"""
+print(fullname[6:11])
