@@ -24,3 +24,8 @@ print(fullname[6:11])
 form "Lastname, Firstname."
 """
 print(fullname[6:11] + fullname[0:6])
+"""
+3.5 Print the length of your first name.
+"""
+
+print(len(fname))
