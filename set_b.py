@@ -10,3 +10,8 @@ character 's' in the string 'mississippi'.
 str = 'mississippi'
 sub = 's' ;
 print(str.count(sub, 0, 12))
+"""
+3.9 Replace all occurences of the substring 'iss' with 'ox'.
+"""
+str = 'mississippi'
+print(str.replace('iss', 'ox'))
