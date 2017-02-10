@@ -15,3 +15,8 @@ print(str.count(sub, 0, 12))
 """
 str = 'mississippi'
 print(str.replace('iss', 'ox'))
+"""
+3.10 Find the index of the first occurrence of 'p' in 'mississippi'.
+"""
+d = 'mississippi'
+print(d.index('p'))
